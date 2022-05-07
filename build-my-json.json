@@ -1,0 +1,78 @@
+# This is a description of my house
+# my house is blue
+# it has 3 bedrooms, 2.5 baths
+# it has a 2 car garage
+# it has a driveway
+# the following people live in my house: Dad, Mom, Brother, Sister
+# my Dad's name is Surendra he is a lawyer and works at Department of State
+# my Mom's name is Priya she is an actor and works independently
+# my Brother is Akbar he is a high school student and goes to Washington High School
+# my Sister is Sheila who is in College and goes to University of Clarusway
+# I have 2 neighbors, Mary and Chen
+
+{
+   "Description": "this is a description of my house",
+
+   "House": {
+       "Color": "Blue",
+       "Room": {
+           "Bedroom": 3,
+           "Bethroom": 2.5,
+
+       },
+       "Parking": [
+           {
+               "Type": "Garage",
+               "Space": 2
+        
+        },
+        {
+
+
+              "Type": "Driveway",
+              "Space": 4
+        }
+       ],
+       "Occupation": [
+           {
+               "Relationship": "Dad",
+               "Name": "Surendra",
+               "Occupation": "Lawyer",
+               "Organization": "Department of state"
+           },
+           {
+               "Relationship": "Mother",
+               "Name": "Surendra",
+               "Occupation": "Actor",
+               "Organization": "Independently works",
+
+           },
+           {
+               "Relationship": "Brother",
+               "Name": "Akbar",
+               "Occupation": "High school student",
+               "Organization": "Washington High school",
+
+
+           },
+           {
+               "Relationship":"Sister",
+               "Name": "Sheila",
+               "Occupation": "College student",
+               "Organization": "Clarusway College",
+
+
+
+           }
+
+
+       ],
+       "Neighbors": ["Marry", "Chen"]
+        
+
+
+   }
+
+
+
+}

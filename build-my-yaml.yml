@@ -1,0 +1,99 @@
+# This is a description of my house
+# my house is blue
+# it has 3 bedrooms, 2.5 baths
+# it has a 2 car garage
+# it has a driveway
+# the following people live in my house: Dad, Mom, Brother, Sister
+# my Dad's name is Surendra he is a lawyer and works at Department of State
+# my Mom's name is Priya she is an actor and works independently
+# my Brother is Akbar he is a high school student and goes to Washington High School
+# my Sister is Sheila who is in College and goes to University of Clarusway
+# I have 2 neighbors, Mary and Chen
+
+description: This is a descriptin of my house 
+My house:
+  color: blue 
+  rooms:
+   bedroom: 3
+   bathroom: 2.5
+ parking:
+ - type: garage 
+   space: 2
+ - type: driveway
+   driveway: 4
+ occupants :
+ - relataionship: Father 
+   name: Erdogan
+   occupation: lawyer 
+   organization: department of state 
+ - relataionship: Mother
+   name: Aysel  
+   occupation: independent 
+ - relataionship: Brother
+   name: Maruf Asim 
+   occupation: high school student 
+   organization: washington high school 
+ - relataionship: Sister
+   name: Murshide
+   occuoation: college student 
+   organization: University of Georgia
+ - relataionship: Myself
+   name: Jason M 
+   occuoation: it manager 
+   organization: Clarusway
+  Neighbors:
+  - mary 
+  - Chen 
+
+
+
+
+
+
+
+
+  - LogicalID:
+    Type: AWS::MediaTailor::PlaybackConfiguration
+    Properties:
+      AdDecisionServerUrl: "String" # Required
+      AvailSuppression:
+        Mode: "String"
+        Value: "String"
+      Bumper:
+        EndUrl: "String"
+        StartUrl: "String"
+      CdnConfiguration:
+        AdSegmentUrlPrefix: "String"
+        ContentSegmentUrlPrefix: "String"
+      ConfigurationAliases:
+      DashConfiguration:
+        MpdLocation: "String"
+        OriginManifestType: "String"
+      LivePreRollConfiguration:
+        AdDecisionServerUrl: "String"
+        MaxDurationSeconds: Number
+      ManifestProcessingRules:
+      Name: "String" # Required
+      PersonalizationThresholdSeconds: Number
+      SessionInitializationEndpointPrefix: "String"
+      SlateAdUrl: "String"
+      Tags:
+        Tags
+      TranscodeProfileName: "String"
+      VideoContentSourceUrl: "String" # Required 
+
+
+
+
+
+description:This is a description of my LogicalID:
+  Type: AWS::Connect::HoursOfOperation
+  Properties:
+    Config: # Required
+      Config
+    Description: "String"
+    InstanceArn: "String" # Required
+    Name: "String" # Required
+    Tags:
+      Tags
+    TimeZone: "String" # Required
